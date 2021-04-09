@@ -15,8 +15,8 @@
 
 ### Website URL:
 
-https://drumichigan.github.io/01-Code-Refactor/
+https://drumichigan.github.io/02-Advanced-CSS-Portfolio/
 
 ### Screenshot:
 
-![Screenshot](https://user-images.githubusercontent.com/78832419/113453399-e25c1480-93d3-11eb-93fc-93282e805841.PNG)
+
