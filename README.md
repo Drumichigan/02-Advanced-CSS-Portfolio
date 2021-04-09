@@ -3,7 +3,7 @@
 
 ## Description
 
-*Beggining Portoflio Page
+*Beginning Portoflio Page
 
 ### Summary of Work
 
