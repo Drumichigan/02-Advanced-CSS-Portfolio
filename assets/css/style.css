@@ -237,3 +237,21 @@ h4{
     border-bottom: 2px solid var(--lavender);
     padding: 2px;
 }
+
+
+/* screen changes size for device 992px or smaller */
+@media screen and (max-width: 992px) {
+    
+    }
+  }
+  
+  /* screen changes size for device at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    
+    }
+  }
+
+  /* screen changes size for device at 576 px or smaller */
+  @media screen and (max-width: 576px) {
+
+  }
