@@ -1,0 +1,239 @@
+/* Sets basis for colors throughout page */
+:root {
+    --white: #e7e7de;
+    --darkpurple: #0c0147;
+    --lightpurple: #260247;
+    --lavender: #d8d4f8;
+}
+/* Formatting for body, including color and text */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background: var(--lightpurple);
+}
+/* Formating for header, making it a flexbox */
+header {
+    height: 20vh;
+    background: var(--darkpurple);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+ /*Navigation bar  */
+nav{
+    padding: 1.5%;
+    display: inline-block;
+    white-space: nowrap; 
+    background: var(--darkpurple);
+}
+
+/* Makes list items inline instead of block, sets margin */
+li {
+    display: inline; 
+    margin-right: 15px;
+}
+
+nav ul li a, .contact-info a {
+    text-decoration: none; 
+    font-size: 200%;
+    padding: 20px;
+    color: var(--lavender);
+}
+
+/* images obtained from pexels.com - open source images */
+
+/*"hero" image  */
+.background-photo {
+    display: flex;
+    background-image: url(../images/alley.jpg);
+    background-size: cover; 
+    height: 100vh; 
+}
+
+/* Name formatting */
+h1 {
+    font-size: 300%;
+    color: var(--lavender); 
+    background: var(--darkpurple);
+    align-self: flex-end;
+    padding: 22px;
+    padding-left: 75px;     
+    margin-bottom: 3%;
+}
+
+
+section {
+    padding: 4%;
+}
+
+
+#about-me {
+    display: flex;
+}
+
+h2{
+    width: 175px; 
+    font-size: 200%;
+}
+
+/* sub-header class formatting */
+.sub-header {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--lavender);
+    padding: 3%;
+    border-right: 5px solid var(--lavender);
+    text-align: right;
+}
+
+/* bio and project pictures class */
+.bio, .project-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+/* bio paragraph */
+.bio p {
+    padding: 1%;
+    color: var(--white);
+    font-size: 150%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+img {
+    border: solid 10px var(--darkpurple);
+    margin: 1%;
+}
+
+
+#about-me img {
+   width: 40%;
+   border-radius: 35%;
+   border: solid;
+}
+
+
+#work {
+    display: inline-flex;
+    justify-content: space-between;
+    
+}
+
+/* psuedo-class for project-pictures */
+.project-images img:hover {
+    box-shadow: 0px 0px 40px 0px var(--lavender);
+}
+   
+
+#big-image-container {
+    position: relative;
+}
+
+
+#big-image {
+    margin: 1%;
+    width: 95%;
+    height: 85%;
+}
+
+/* header 3 */
+h3 {
+    font-size: 150%;
+}
+
+/* text for containers */
+.text-container1 p, .text-container2 p, .text-container3 p {
+    color: var(--white);
+    font-size: 125%;
+    padding-top: 3%;
+}
+
+/* positioning for text box */
+.text-container1 {
+    color: var(--lavender);
+    position: absolute;
+    text-align: right;
+    top: 80%;
+    left: 1%; 
+    background: var(--darkpurple);
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+/* positioning for text boxes */
+.text-container2 {
+    color: var(--lavender);
+    position: absolute;
+    text-align: right; 
+    top: 80%;
+    left: 1%;
+    background: var(--darkpurple);
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 2%;
+}
+
+/* positioning for text boxes */
+.text-container3 {
+    color: var(--lavender);
+    position:absolute;
+    text-align: left;
+    top: 80%;
+    right: 1%;
+    background: var(--darkpurple);
+    padding: 2%;
+    padding-right: 10%;
+    padding-left: 2%;
+
+}
+
+
+.other-images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.other-images {
+    height: 100%;
+    width: 45%;
+}
+
+
+.other-images-text-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 45%;
+}
+
+/* header 4 */
+h4{
+    width: 175px; 
+    font-size: 150%;
+}
+
+/* contact me section */
+#contact-me {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+
+.contact-info {
+    display: inline-flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%;
+}
+
+/* underlining for phone number, github and linkedin */
+.contact {
+    border-bottom: 2px solid var(--lavender);
+    padding: 2px;
+}

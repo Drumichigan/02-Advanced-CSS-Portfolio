@@ -4,35 +4,105 @@
         <title>Portfolio: Andrew Woodcock</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Assets/CSS/reset.css"/> <!--Link to reset style sheet -->
-        <link rel="stylesheet" href="Assets/CSS/style.css"/> <!--Link to main style sheet -->
+        <link rel="stylesheet" href="./assets/css/reset.css"/> 
+        <link rel="stylesheet" href="./assets/css/style.css"/> 
     </head>
+
 <body>
-    <!-- Header -->
-    <header class="nav-header">
+    <!-- Header section with Nav Bar -->
+    <header class="nav-header">        
         <nav>
             <ul>
-                <!--anchor links to different parts of the webpage -->
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="Assets/pdfs/Resume - Leigh Dahlin.pdf" target = "blank">Resume</a></li> <!-- When clicked, resume pdf will pop up in new window -->
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>
-    <figure>
-        <img src="assets/images/torres.PNG" alt="Las Torres del Paine Chile">
-    </figure>
+    <!-- "hero" image with name -->
+    <div class="background-photo">
 
         <h1>Andrew Woodcock</h1>
-
-    <section>
-        <div class="About Me">
-            <img src=""
+     
+    </div>
+    <!-- About me section with headshot and info about myself and bootcamp -->
+    <section id="about-me">
+        <div class= "sub-header">
             <h2>About Me</h2>
-        <p>My name is Andrew Woodcock. I am currently enrolled in the Michigan State Bootcamp and learning to be a full stack web developer.</p>
-        <div class="Andrew Woodcock profile pic"></div>
+        </div>
+
+        <div class="bio">
+            
+            <img src="assets/images/profilepic.jpg" alt="Headshot of Andrew Woodcock">
+
+            <p>My name is Andrew Woodcock. I am currently enrolled in the Michigan State Bootcamp and learning to be a full stack web developer.</p>
+
+            <p>This assignment focuses on HTML and CSS. This class has presented its own set of difficulties for me. Not only is this skill set completely different than what I have done in the past, the class is completely virtual. Some day I hope to meet my classmates and instructors in person.</p>
+        </div>
+        
     </section>
 
+    <!-- Application section/ application 1 with larger image-->
+    <!-- Images obtained from pexels.com - open source images -->
+    <section id= "work">
+        <div class= "sub-header"><h2>Work</h2></div>
+
+            <div class="project-images">
+                <div id="big-image-container">
+                    <a href="https://drumichigan.github.io/01-Code-Refactor/"><img id = "large-image" src="./assets/images/project-1.PNG" alt="screenshot of first assignment"></a>
+                        <div class="text-container1">
+                            <h3>Code Refactor</h3>
+                            <p>Using Semantic HTML elements</p>
+                        </div>
+                </div>
+
+    <!-- Section with smaller pictures for applications 2-5 -->
+                <div class="other-images-container">
+                    
+                    <!-- application #2 -->
+                    <div class="other-images-text-container">
+                        <img class = "other-images" src="./assets/images/handrails.jpg" alt="handrails in a trainstation">
+                        <div class="text-container2">
+                            <h3>Application #2</h3> 
+                            <p>application details</p> 
+                        </div>
+                        <!-- application #3 -->
+                        <img class = "other-images" src="./assets/images/blueandteal.jpg" alt="abstract painting with blue and teal colors"> 
+                        <div class="text-container3">
+                            <h3>Application #3</h3>
+                            <p>application details</p> 
+                        </div>
+                    </div>
+                    <!-- application #4 -->
+                    <div class="other-images-text-container">
+                        <img class = "other-images" src="./assets/images/purple.jpg" alt="abstract painting with purple color"> 
+                        <div class="text-container2">
+                            <h3>Application #4</h3> 
+                            <p>application details</p> 
+                        </div>
+                    <!-- application #5 -->
+                        <img class = "other-images" src="./assets/images/neon.jpg" alt="outside rail line with neon lights"> 
+                        <div class="text-container3">
+                            <h3>Application #5</h3> 
+                            <p>application details</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact section of website -->
+    <section id= "contact-me">
+        <div class= "sub-header"><h4>Contact Me</h4></div>
+            <div class="contact-info">
+            
+                <a class="contact" href="tel:9999999999">999-999-9999</a>
+                <a class="contact" href="https://github.com/Drumichigan">Github</a>
+                <a class="contact" href="https://www.linkedin.com/in/andrew-woodcock-mi/">LinkedIn</a>
+            
+            </div>
+    </section>
 </body>
 </html>
+
