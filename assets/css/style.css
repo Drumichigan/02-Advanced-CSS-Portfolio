@@ -68,6 +68,7 @@ section {
 
 #about-me {
     display: flex;
+    
 }
 
 h2{
@@ -242,16 +243,158 @@ h4{
 /* screen changes size for device 992px or smaller */
 @media screen and (max-width: 992px) {
     
+    header{
+        flex-direction: column;
     }
-  }
+    
+    .sub-header {
+        display: block;
+        border-bottom: 5px;
+        border-right: none;        
+    }
+
+    nav ul li a{
+        flex-wrap: none;
+        justify-content: column;
+    }
+
+    #about-me{
+        display:block;
+        
+    }
+
+
+    #work{
+        display: block;
+    }
+
+    #contact-me{
+        display: block;
+        text-align: center;
+    }
+
+    .sub-header h2{
+        position: absolute;
+        left: 30%;
+        margin-bottom: 5px;
+    }
+    .other-images {
+        min-width: 25%;
+    }
+
+    .project-images {
+        min-width: 25%;
+    }
+}
+
+    
+
   
   /* screen changes size for device at 768px or smaller */
   @media screen and (max-width: 768px) {
+
     
+    .sub-header {
+        display: block;
+        border-bottom: 5px;
+        border-right: none;        
     }
+
+    nav ul li a{
+        flex-wrap: none;
+        justify-content: column;
+    }
+
+    #about-me{
+        display:block;
+        
+    }
+
+
+    #work{
+        display: block;
+    }
+
+    #contact-me{
+        display: block;
+        text-align: center;
+    }
+
+    .sub-header h2{
+        position: absolute;
+        left: 30%;
+        margin-bottom: 5px;
+    }
+
+    .other-images {
+        min-width: 25%;
+    }
+
+    .project-images {
+        min-width: 25%;
+    }
+
   }
+    
+  
 
   /* screen changes size for device at 576 px or smaller */
   @media screen and (max-width: 576px) {
 
+    header{
+        justify-content: center;  
+        align-items: center;      
+        }
+
+
+    .sub-header {
+        display: block;
+        border-bottom: 5px;
+        border-right: none;        
+    }
+
+    nav ul li a{
+        flex-wrap: none;
+        justify-content: column;
+    }
+
+    #about-me{
+        display:block;
+    
+    }
+
+    #work{
+        display: block;
+    }
+
+    #contact-me{
+        display: block;
+        text-align: center;
+    }
+
+    .text-container1, .text-container2, .text-container3{
+        min-width: 15%;
+    }
+
+    .text-container1 p, .text-container2 p, .text-container3 p {
+        font: 10px;
+    }
+
+    #big-image-container{
+        max-width: 25px,
+    }
+
+    .sub-header h2{
+        position: absolute;
+        left: 30%;
+        margin-bottom: 5px;
+    }
+
+    .other-images {
+        min-width: 25%;
+    }
+
+    .project-images {
+        min-width: 35%;
+    }
   }
