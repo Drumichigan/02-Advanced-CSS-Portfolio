@@ -19,4 +19,5 @@ https://drumichigan.github.io/02-Advanced-CSS-Portfolio/
 
 ### Screenshot:
 
+<img width="181" alt="project-2" src="https://user-images.githubusercontent.com/78832419/114276480-c15b7b00-99f4-11eb-8ebf-9bcab09fe5ef.png">
 
